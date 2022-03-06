@@ -19,6 +19,7 @@ public class ESTest_Client {
                 RestClient.builder(new HttpHost("localhost", 9200, "http")));
 
         client.close();
+        client.close();
 
 
 
